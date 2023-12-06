@@ -1,0 +1,132 @@
+@charset "ISO-8859-1";
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.home{
+	background-image: url("/images/backgrnd.jpg");
+	background-position:center;
+	background-size:cover;
+	background-repeat: no-repeat;
+	margin: auto;
+	display: table;
+}
+
+.btn {
+	background:green;
+	margin:auto;
+	display: table;
+}
+
+.formtable{
+	
+	margin-left:25px;
+	display: table;
+}
+
+.toggle-btn{
+	padding: 10px 30px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+}
+#btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    transition:.5s;
+}
+.hero{
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4));
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+.form-box{
+	width: 380px;
+	height: 500px;
+	position: relative;;
+	margin: 6% auto;
+	background: #00ffff;
+	padding: 5px;
+	overflow: hidden;
+
+}
+.login-form{
+	border: 0px solid;
+	top:150px;
+	position: absolute;
+	width: 280px;
+	transition:.5s;
+}
+.input-field{
+	display: block;
+	width: 320px;
+	height: 30px;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 20px;
+	background-position: center;
+	
+}
+
+.button-box{
+	width: 220px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+	
+}
+.submit-button{
+	padding:10px 35px;
+	margin-bottom:auto;
+	position: absolute;
+	width: 220px;
+	background: linear-gradient(to right, #ff00ff, #00ff00);
+    border-radius: 30px;
+    display: block;
+    background-position: center;
+    left:50px;
+    cursor: pointer;
+}
+.social-icon{
+	margin: 10px auto;
+	text-align: center;
+}
+.social-icon img{
+	width: 30px;
+	margin: 0 10px;
+	box-shadow: 0 0 20px 0  #7f7f7f3d;
+	cursor:pointer;
+	border-radius: 50%;
+}
+
+.check-box{
+	margin: 20px 10px;
+	
+}
+
+span{
+	font-style: italic;
+}
+#log-in{
+	left:30px;
+}
+#register{
+	left:450px;
+}
+.radio-btn{
+	margin-left: 30px;
+}
